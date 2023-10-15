@@ -1030,3 +1030,12 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+.loginbg{
+  background-image: url("./images/login.jpg");
+  background-size: cover;
+}
+.cont{
+  width: 292px;
+  height: 350px;
+}
