@@ -5,8 +5,7 @@
 [type="radio"]:checked,[type="radio"]:not(:checked)
 {
     position: absolute;
-    visibility: hidden;
-    
+    visibility: hidden;  
 }
 .desc-btn:checked+label
 {
@@ -59,12 +58,4 @@
 {
     font-size: 100px;
     margin-bottom: -4px;
-}
-
-.container
-{
-    width: 60vw;
-    height: 70vh;
-    margin-left: 20vw;
-    margin-top: 5vh;
 }
