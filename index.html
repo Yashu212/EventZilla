@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventZilla</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="mainoutput.css">
+    <!-- npx tailwindcss -i main.css -o .mainoutput.css --watch -->
+</head>
+<body>
+    <nav class="mx-56 mt-10 flex justify-between items-center">
+        <div>
+            <a href="/"><img src="./images/1024pxx96px.png" class="h-20 " alt="EventZilla logo"></a>
+        </div>
+        <div>
+            <div class="flex w-80 gap-20 text-xl font-medium " >
+                <input class="desc-btn" type="radio" id="desc-1" name="desc-btn" checked/>
+                <label for="desc-1" class="cursor-pointer"><a href="/">Home</a></label>
+                <input class="desc-btn" type="radio" id="desc-2" name="desc-btn" />
+                <label for="desc-2" class="cursor-pointer"><a href="#events">Events</a></label>
+                <input class="desc-btn" type="radio" id="desc-3" name="desc-btn"/>
+                <label for="desc-3" class="cursor-pointer"><a href="#venue">Venue</a></label>
+            </div>
+        </div>
+        <div>
+            <a href=login.html class="font-medium transition-all text-xl mr-4 bg-slate-200 p-3 px-8 rounded-lg hover:text-white hover:bg-red-500">Log In</a>
+            <a href="register.html" class="font-medium transition-all text-xl bg-slate-200 p-3 px-8 rounded-lg hover:text-white hover:bg-red-500">Register</a>
+        </div>
+    </nav>
+    <section class="mx-96 mt-32 flex flex-col gap-10 justify-center items-center">
+        <h1 class="text-7xl text-center font-bold text-blue-950">Events,Meetups & Conferences</h1>
+        <p class="text-center text-xl text-slate-500">We offer a comprehensive event management platform, enabling seamless organization and participation in events with the utmost efficiency and excellence</p>
+        <div class="mt-14">
+            <button class="font-medium transition-all text-xl mr-4 text-white bg-blue-600 p-3 px-8 rounded-lg hover:bg-blue-700">Buy Your Ticket</button>
+            <button class="font-medium transition-all text-xl  text-white bg-red-500 p-3 px-8 rounded-lg hover:bg-red-600">Book Venue</button>
+        </div>
+    </section>
+    <div id="events" class="mt-10 bg">
+        <p class="pt-6 px-12 select-none text-5xl text-white innertext ">Upcoming Events</p>
+    </div>
+    <section >
+        <div class="flex gap-4 w-full bg-slate-800 justify-evenly items-center p-11">
+            <div class="h-96 w-96 bg-white">
+
+            </div>
+            <div class="h-96 w-96 bg-white">
+                    
+            </div>
+            <div class="h-96 w-96 bg-white">
+                    
+            </div>
+            <a href="#" class="font-medium transition-all text-xl mr-4 text-white bg-blue-600 p-3 px-8 rounded-lg hover:bg-red-500">See More..</a>
+        </div>
+    </section>
+    <div id="venue" class="bg">
+        <p class="pt-6 px-12 select-none text-5xl text-white innertext">venues</p>
+    </div>
+    <section >
+        <div class="flex gap-4 w-full bg-slate-800 justify-evenly items-center p-11">
+            <div class="h-96 w-96 bg-white">
+
+            </div>
+            <div class="h-96 w-96 bg-white">
+                    
+            </div>
+            <div class="h-96 w-96 bg-white">
+                    
+            </div>
+            <a href="#" class="font-medium transition-all text-xl mr-4 text-white bg-blue-600 p-3 px-8 rounded-lg hover:bg-red-500">See More..</a>
+        </div>
+    </section>
+    <footer class="bg-slate-600 w-full">
+        <div class="flex justify-evenly items-start pt-5 pb-5">
+            <p class="icon text-xl">Contact: </p>
+            <a href="mailto:yashuklaaa212@gmail.com"><i class="fa-solid fa-envelope icon fa-2xl"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram icon fa-2xl"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook icon fa-2xl"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter icon fa-2xl"></i></a>
+            <a href="tel: +91123456890"><i class="fa-solid fa-phone icon fa-2xl"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

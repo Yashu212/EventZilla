@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventZilla-Register</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mainoutput.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <nav class="mt-10 ml-8">
+        <div>
+            <a href="/"><img src="./images/1024pxx96px.png" class="h-20 " alt="EventZilla logo"></a>
+        </div>
+    </nav>
+    <div class="container flex rounded-2xl shadow-2xl bg-slate-50 gap-20 ">
+        <img src="./images/signin-image.jpg" alt="">
+        <section class=" flex flex-col items-center">
+            <p class="text-pink-500 text-7xl relative w-full">Register</p>
+            <form action="" class="flex flex-col gap-2 mt-6 items-center">
+                <input type="text" name="Fname" id="fname" placeholder="First Name" required class="h-10 rounded-full px-4">
+                <input type="text" name="Lname" id="lname" placeholder="Last Name" required class="h-10 rounded-full px-4">
+                <input type="email" name="email" id="email" placeholder="Email Id" required class="h-10 rounded-full px-4">
+                <input type="tel" name="mobile" id="mobile" placeholder="Mobile Number" required class="h-10 rounded-full px-4">
+                <input type="password" name="password" id="password" placeholder="Password" required class="h-10 rounded-full px-4">
+                <fieldset width="100" class="px-4">
+                    <legend  class="text-center"><b>Gender<sup>*</sup></b></legend>
+                    <label for="male">
+                        <input type="radio" name="gender" id="male" required>Male&nbsp;
+                    </label>
+                    <label for="female" class="mx-2">
+                        <input type="radio" name="gender" id="female" required>Female&nbsp;
+                    </label>
+                    <label for="Other" class="mx-2">
+                        <input type="radio" name="gender" id="Other" required>Other
+                    </label>
+                </fieldset>
+                <fieldset width="100" class="text-center">
+                    <legend><b>User Type: <sup>*</sup></b></legend>
+                    <label for="Organizer" class="mx-2">
+                        <input type="radio" name="user-type" id="Organizer" required>Organizer&nbsp;
+                    </label>
+                    <label for="Attendee" class="mx-2">
+                        <input type="radio" name="user-type" id="Attendee" required>Attendee
+                    </label>
+                </fieldset>
+                <input type="submit" value="Register" class="h-10 text-white cursor-pointer rounded-full relative w-36 bg-slate-500 px-8 p-2">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
